@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="firefox">
+<title>Directionality tags</title>
+
+<script>
+function myFunctionlrm() {
+  /* Get the text field */
+  var copyText = document.getElementById("select-lrm");
+
+  /* Select the text field */
+  copyText.select();
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+ 
+}
+</script>
+<script>
+function myFunctionrlm() {
+  /* Get the text field */
+  var copyText = document.getElementById("select-rlm");
+
+  /* Select the text field */
+  copyText.select();
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+ 
+}
+</script>
+<script>
+function myFunctionlre() {
+  /* Get the text field */
+  var copyText = document.getElementById("select-lre");
+
+  /* Select the text field */
+  copyText.select();
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+ 
+}
+</script>
+<script>
+function myFunctionrle() {
+  /* Get the text field */
+  var copyText = document.getElementById("select-rle");
+
+  /* Select the text field */
+  copyText.select();
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+ 
+}
+</script>
+<script>
+function myFunctionpdf() {
+  /* Get the text field */
+  var copyText = document.getElementById("select-pdf");
+
+  /* Select the text field */
+  copyText.select();
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+ 
+}
+</script>
+
+<link rel="stylesheet" href="/eng/style.css" type="text/css" media="screen">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head><body>
+
+<table cellspacing="1" cellpadding="5" border="1">
+<tbody>
+<tr>
+<th>Character Name</th>
+<th>Unicode Symbol</th>
+<th>HTML Entity</th>
+<th>Character</th>
+</tr>
+<tr>
+<td><a href="http://www.fileformat.info/info/unicode/char/200e/index.htm">LRM - Left-to-Right Mark</a></td>
+<td>U+200E</td>
+<td>&amp;lrm;</td>
+<td>
+<input id="select-lrm" value="‎" type="text" size="1" />
+<button onclick="myFunctionlrm()">Copy</button>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.fileformat.info/info/unicode/char/200f/index.htm">RLM - Right-to-Left Mark</a></td>
+<td>U+200F</td>
+<td>&amp;rlm;</td>
+<td>
+<input id="select-rlm" value="‏" type="text" size="1" />
+<button onclick="myFunctionrlm()">Copy</button>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.fileformat.info/info/unicode/char/202a/index.htm">LRE - Left-to-Right Embedding</a></td>
+<td>U+202A</td>
+<td>&amp;#8234;</td>
+<td>
+<input id="select-lre" value="‪" type="text" size="1" />
+<button onclick="myFunctionlre()">Copy</button>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.fileformat.info/info/unicode/char/202b/index.htm">RLE - Right-to-Left Embedding</a></td>
+<td>U+202B</td>
+<td>&amp;#8235;</td>
+<td>
+<input id="select-rle" value="‫" type="text" size="1" />
+<button onclick="myFunctionrle()">Copy</button>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.fileformat.info/info/unicode/char/202c/index.htm">PDF - Pop Directional Formatting</a></td>
+<td>U+202C</td>
+<td>&amp;#8236;</td>
+<td>
+<input id="select-pdf" value="‬" type="text" size="1" />
+<button onclick="myFunctionpdf()">Copy</button>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+</body>
+</html>
